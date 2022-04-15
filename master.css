@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #aaa;
+}
+.page{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 
+    "osama-mo osama-mo ahmed-sayed shady-nab"
+    "mohamed-ibrahim mahmoud-mo mahmoud-mo shady-nab"
+    "mohamed-ibrahim ezz ezz shady-nab"
+    "mohamed-sayed ibrahim-sayed gamal-sayed eman-sayed";
+    gap: 10px 10px;
+}
+.page{
+    margin: 40px;
+}
+.header-cont{
+    background-color: transparent;
+}
+h1{
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-block-start: 10px;
+    margin-left: 10px;
+    font-family: 'Segoe UI',
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
+}
+h2{
+    background-color: transparent;
+    font-size: 10px;
+    color: #aaa;
+    font-weight: bold;
+        font-family: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+        margin-left: 10px;
+}
+.semi-head{
+    background-color: transparent;
+}
+.semi-head p{
+    background-color: transparent;
+    margin-block-start: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.footer{
+    background-color: transparent;
+
+}
+.footer p{
+    font-size: 11px;
+    margin-block-start: 10px;
+    background-color: transparent;
+    font-family: 'Segoe UI',
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
+    margin-left: 10px;
+}
+.osama-mohamed{
+    grid-area: osama-mo;
+    background-color: white;
+    position: relative;
+}
+.osama-mohamed::before{
+    position: absolute;
+    content: '';
+    top: 100%;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(246, 154, 15);
+}
+.ahmed-sayed{
+    grid-area: ahmed-sayed;
+    background-color: white;
+    position: relative;
+}
+.ahmed-sayed::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(246, 154, 15);
+}
+.shady-nabil{
+    grid-area: shady-nab;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+.shady-nabil::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(246, 154, 15);
+}
+.mohamed-ibrahim{
+    grid-area: mohamed-ibrahim;
+    background-color: white;
+    position: relative;
+    
+}
+.mohamed-ibrahim::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(246, 154, 15);
+}
+.mahmoud-mohamed{
+    grid-area: mahmoud-mo;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+.mahmoud-mohamed::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(246, 154, 15);
+}
+.ezz-eldin{
+    grid-area: ezz;
+    background-color: white;
+    position: relative;
+}
+.ezz-eldin::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(246, 154, 15);
+}
+.mohamed-sayed{
+    grid-area: mohamed-sayed;
+    background-color: white;
+    position: relative;
+}
+.mohamed-sayed::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(246, 154, 15);
+}
+.ibrahim-sayed{
+    grid-area: ibrahim-sayed;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+.ibrahim-sayed::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(246, 154, 15);
+}
+.gamal-sayed{
+    grid-area: gamal-sayed;
+    background-color: white;
+    position: relative;
+}
+.gamal-sayed::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(246, 154, 15);
+}
+.eman-sayed{
+    grid-area: eman-sayed;
+    background-color: white;
+    position: relative;
+}
+.eman-sayed::before {
+    position: absolute;
+    content: '';
+    top: 100%;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(246, 154, 15);
+}
+
